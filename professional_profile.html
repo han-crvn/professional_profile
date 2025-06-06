@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="layout.css">
+    
+    <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR-->  
+   <nav>
+    <div class="left">
+        <a href="/">PROFESSIONAL PROFILE</a>
+    </div>
+
+    <div class="right">
+    <a href="https://github.com/han-crvn" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github-alt"></i>
+        <span>Github</span>
+    </a>
+
+    <a href="www.linkedin.com/in/shane-craven-palomo-6a2464345" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>LinkedIn</span>
+    </a>
+
+    <a href="mailto:palomoshanecraven@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+    </a>
+
+    </div>
+   </nav>
+
+   <main>
+    <!-- SECTION 1: APPLICANT -->
+    <section class="applicant-section">
+        <div class="text">
+            <h2>HI, I'm Shane Craven</h2>
+            <p> I am a first-year Computer Engineering student at the Polytechnic University of the Philippines. I am passionate about constant learning, especially when it comes to technology and how it all works. Right now, I'm focusing on Python, but I'm also eager to explore other programming languages as I grow in this field. Aside from coding, I have some experience with hardwares like crimping cables and taking apart system units. I'm just new in this field, but I know that I'm passionate about creating a solid foundation in this field. </p>
+            <p> Don't hesitate to check out my Portfolio (Curriculum Vitae & Cover Letter), some of the works I've done so far, and feel free contact me below if you like to know more about me.</p>
+        
+            <div  class="links">
+                
+                <a href="#forms">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Portfolio</span>
+                </a>
+
+                <a href="#projects">
+                    <i class="fa-solid fa-trophy"></i>
+                    <span>Projects</span>
+                </a>
+
+                <a href="#contact">
+                    <i class="fa-solid fa-address-book"></i>
+                    <span>Contact</span>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="headshot">
+            <img src="picture.webp" alt="Shane's Picture">
+        </div>
+    </section>
+
+    <!-- SECTION 2: PORTFOLIOS -->
+   <section id="forms" class="forms-section">
+        <h2>PORTFOLIO</h2>
+        <div class="cells">
+            <div class="cell">
+                <a href="CURRICULUM VITAE.pdf" target="_blank">
+                    <i class="fa-solid fa-newspaper"></i>
+                    <span>Curriculum Vitae</span>
+                </a>
+            </div>
+
+            <div class="cell">    
+                <a href="COVER LETTER.pdf" target="_blank">
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                    <span>Cover Letter</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: PROJECTS -->
+    <section id="projects", class="projects-section">
+        <h2>PROJECTS</h2>
+
+        <div class="projects-container">
+            
+            <!-- Project Card 1 -->
+            <div class="project-card">
+            <h3>Python Programs</h3>
+            <p>Compilation of programs that have been doned in Object Oriented Programming.</p>
+            <a href="https://github.com/han-crvn" target="_blank">View Project →</a>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="project-card">
+            <h3>Case Study</h3>
+            <p>Conduct study about the experiences and skills of students and graduates under the program Computer Engineering.</p>
+            <a href="1.1-GROUP10_CMPE101_Case_Study-1-2.pdf" target="_blank">View Project →</a>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="project-card">
+            <h3>Web Page</h3>
+            <p>Created own professional web page with the help of tutorials and tools in the internet.</p>
+            <a href="http://127.0.0.1:5500/professional_profile.html" target="_blank">View Project →</a>
+            </div>  
+        
+        </div>
+    </section>
+
+    <!-- SECTION 4: CONTACT -->
+    <section id="contact" class="contact-section">
+        <h2>CONTACT</h2>
+
+        <div class="group">
+            <div class="text">
+                If you would like to contact me directly, please use the form beside. I will respond to your email as soon as I am available. Thank you, and have a great day!
+            </div>
+
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+
+                <label for="email">Email</label>
+                <input type="text" id="email">
+
+                <label for="message">Message</label>
+                <textarea id="message" cols="30" rows="10"></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+   </main>
+</body>
+</html>
