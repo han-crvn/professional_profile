@@ -233,6 +233,7 @@ nav .right a span {
 
 .contact-section h2 {
     font-size: 45px;
+    color: var(--text-color);
 }
 
 .contact-section .group {
