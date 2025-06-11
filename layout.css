@@ -225,7 +225,7 @@ nav .right a span {
 }
 
 .project-card a {
-    color: var(--link-color);
+    color: var(--text-color);
     font-weight: 500;
 }
 
